@@ -53,7 +53,7 @@ public class ATM_Process {
 		System.out.println("CUSTOMER ACCS activated");
 	}
 
-	public static void addNewCustomer() throws ClassNotFoundException, SQLException {
+	/*public static void addNewCustomer() throws ClassNotFoundException, SQLException {
 		try (Scanner sc = new Scanner(System.in)) {
 			int acc_no = 106;
 			con = DBUtil.getConnect();
@@ -87,7 +87,7 @@ public class ATM_Process {
 		PreparedStatement pst = con.prepareStatement("delete from ATM");
 		pst.execute();
 		System.out.println("ATM CLEARED");
-	}
+	}*/
 
 	// 1
 	public static void load_cash() throws ClassNotFoundException, SQLException {
